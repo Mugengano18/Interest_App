@@ -35,7 +35,7 @@ public class InterestApp {
 
         System.out.println("Monthly Payment: " + NumberFormat.getCurrencyInstance().format(monthlyPayment));
         System.out.println("Total Payment: $" + NumberFormat.getCurrencyInstance().format(totalPayment));
-        System.out.println("Total Interest: $" + interest);
+        System.out.println("Total Interest: $" + NumberFormat.getCurrencyInstance().format(interest));
 
         scanner.close();
     }

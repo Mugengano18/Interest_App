@@ -39,7 +39,7 @@ public class InterestCalculator {
     }
 
     public static double calculateInterest(Interest interest) {
-        // Perform interest calculation logic here
-        return 0;
+        double actual_interest = calculateTotalPayment(interest) - interest.getLoanAmount();
+        return actual_interest;
     }
 }
